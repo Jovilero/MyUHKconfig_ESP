@@ -5520,7 +5520,11 @@
                   "scancode": 73
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 40
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -5641,7 +5645,10 @@
                   "modifierMask": 1
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 0
+                },
                 null,
                 {
                   "keyActionType": "keystroke",
@@ -5667,7 +5674,11 @@
                   "modifierMask": 5
                 },
                 null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 10
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -5697,7 +5708,10 @@
                   "scancode": 78,
                   "modifierMask": 3
                 },
-                null,
+                {
+                  "keyActionType": "playMacro",
+                  "macroIndex": 1
+                },
                 {
                   "keyActionType": "keystroke",
                   "type": "basic",
@@ -6063,6 +6077,41 @@
     }
   ],
   "macros": [
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "AltESC",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 41,
+          "modifierMask": 4
+        }
+      ]
+    },
+    {
+      "isLooped": false,
+      "isPrivate": true,
+      "name": "AltQAltESC",
+      "macroActions": [
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 20,
+          "modifierMask": 1
+        },
+        {
+          "macroActionType": "key",
+          "action": "tap",
+          "type": "basic",
+          "scancode": 41,
+          "modifierMask": 4
+        }
+      ]
+    },
     {
       "isLooped": true,
       "isPrivate": true,
